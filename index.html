@@ -36,11 +36,11 @@
   
 </head>
 
-<body class="lato-font max-w-screen-xl mx-auto">
-  <header>
+<body class="lato-font">
+  <header class="max-w-screen-2xl mx-auto">
     <!-- nav bar start -->
 
-    <nav class="max-w-screen-xl mx-auto">
+    <nav class="max-w-screen-2xl mx-auto">
       <div class="navbar bg-base-100 flex-row-reverse lg:flex-row lg:bg-bg-color lg:rounded-full lg:text-white mt-4">
         <div class="">
           <div class="dropdown">
@@ -75,7 +75,7 @@
             <li><a>All Fruits</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case font-bold text-3xl flex-1 justify-start lg:justify-center"><img
+        <a class="btn btn-ghost normal-case font-bold text-4xl flex-1 justify-start lg:justify-center"><img
             src="images/logo.png" alt="" class="w-7 h-7">Fruit Burst</a>
 
         <!-- search area -->
@@ -88,8 +88,8 @@
       </div>
     </nav>
     <!-- banner section start -->
-    <section class="max-w-screen-xl mx-auto">
-      <div class="carousel w-full lg:py-14 relative">
+    <section class="max-w-screen-2xl mx-auto relative">
+      <div class="carousel w-full lg:py-14 ">
         <div id="slide1" class="carousel-item relative w-full">
 
           <div class="hero lg:min-h-[calc(100vh-90px)] mx-auto" style="background-image: url(images/banner1.png);">
@@ -173,7 +173,7 @@
       </div>
       <!-- banner under -->
       <div
-        class="flex hidden lg:flex border rounded-lg  gap-10 text-center p-10 bg-white justify-center absolute -bottom-40 right-56  shadow-lg">
+        class="hidden lg:flex border mx-20 rounded-lg gap-10 text-center p-10 bg-white justify-center space-x-8 shadow-lg">
         <div>
           <img src="./images/fruit1.png" alt="">
           <p>Berry</p>
@@ -198,7 +198,7 @@
     </section>
 
   </header>
-  <main>
+  <main class="max-w-screen-2xl mx-auto">
     <!-- deal section -->
     <section class="max-w-screen-xl mx-auto mt-10 lg:pt-40">
       <div class="flex flex-col lg:flex-row gap-6 lg:justify-between text-center lg:text-left md:text-center">
@@ -207,7 +207,7 @@
           <p class="font-normal lato-font mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of
             classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <div class="grid grid-flow-col gap-5 text-center ml-10 auto-cols-max max-w-xs">
+        <div class="grid grid-flow-col gap-5 text-center ml-10 md:ml-48 lg:ml-0 auto-cols-max max-w-xs">
           <div class="flex flex-col p-2 rounded-box ">
             <span class="countdown font-mono text-5xl">
               <span style="--value:29;"></span>
@@ -338,7 +338,7 @@
     </dialog>
 
 
-      <div class="max-w-screen-xl mx-auto grid gap-6 grid-cols-1 lg:grid-cols-4 py-10">
+      <div class="max-w-screen-xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10">
         <!-- card 1 -->
         <div class="card card-compact  space-y-6 py-5 bg-white shadow-2xl items-center text-center ">
           <figure><img src="./images/fruit6.png" alt="Shoes"  /></figure>
@@ -429,7 +429,7 @@
     </div>
 
     <!-- Meet our team section -->
-    <div class="max-w-screen-xl  bg-opacity-60 mt-20 lg:mt-40 mx-auto lg:py-12 py-4 text-white text-center space-y-14 bg-cover" style="background-image: url(./images/team.png);">
+    <div class="max-w-screen-xl items-center bg-opacity-60 mt-20 lg:mt-40 mx-auto lg:py-12 py-4 text-white text-center space-y-14 bg-cover" style="background-image: url(./images/team.png);">
       <div class="lg:pt-8 pt-4">
           <h2 class="text-2xl font-extrabold my-5 lg:text-5xl">Meet the team section</h2>
           <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin
@@ -440,7 +440,7 @@
               <img src="./images/member1.png" alt="">
               <h3 class="text-2xl font-bold">Awlad</h3 class="text-2xl font-bold">
               <p class="font-medium">Fruits Expert</p>
-              <div>
+              <div class="bg-slate-200 p-4 rounded-full shadow-xl">
                 <i class="fa-brands fa-facebook fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-twitter fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-linkedin fa-lg mr-2 text-bg-color"></i>
@@ -452,7 +452,7 @@
               <h3 class="text-2xl font-bold">Safia</h3 class="text-2xl font-bold">
               <p class="font-medium">Fruits Expert</p>
               
-              <div>
+              <div class="bg-slate-200 p-4 rounded-full shadow-xl">
                 <i class="fa-brands fa-facebook fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-twitter fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-linkedin fa-lg mr-2 text-bg-color"></i>
@@ -462,7 +462,7 @@
               <img src="./images/member3.png" alt="">
               <h3 class="text-2xl font-bold">Rokib</h3 class="text-2xl font-bold">
               <p class="font-medium">Fruits Expert</p>
-              <div>
+              <div class="bg-slate-200 p-4 rounded-full shadow-xl">
                 <i class="fa-brands fa-facebook fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-twitter fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-linkedin fa-lg mr-2 text-bg-color"></i>
@@ -472,7 +472,7 @@
               <img src="./images/member4.png" class="brightness-60" alt="">
               <h3 class="text-2xl font-bold">Chaity</h3 class="text-2xl font-bold">
               <p class="font-medium">Fruits Expert</p>
-              <div class="text-center">
+              <div class="bg-slate-200 p-4 rounded-full shadow-xl">
                 <i class="fa-brands fa-facebook fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-twitter fa-lg mr-2 text-bg-color"></i>
                 <i class="fa-brands fa-linkedin fa-lg mr-2 text-bg-color"></i>
@@ -492,9 +492,9 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5  place-items-center">
           <!-- choose sec left -->
-          <div class="">
+          <div class="row-start-2 lg:row-start-1">
             <!-- dedicated -->
-          <div class="mt-7  my-4 flex  items-center space-x-3 flex-col md:flex-row">
+          <div class="mt-7  my-4 flex  items-center space-x-3 flex-col md:flex-col lg:flex-row">
             <div class="bg-slate-200 p-4 rounded-full shadow-xl">
               <i class="fa-solid fa-user-group fa-xl"  style="color: #F85559;"></i>
             </div>
@@ -510,7 +510,7 @@
   
           <!-- fresh -->
   
-          <div class="mt-7  my-4 flex items-center space-x-3 flex-col md:flex-row">
+          <div class="mt-7  my-4 flex items-center space-x-3 flex-col md:flex-col lg:flex-row">
             <div class="bg-slate-200 p-4 rounded-full shadow-xl">
               <i class="fa-solid fa-heart fa-xl" style="color: #F85559;"></i>
             </div>
@@ -526,7 +526,7 @@
   
           <!-- gift -->
   
-          <div class="mt-7 my-4 flex items-center space-x-3 flex-col md:flex-row">
+          <div class="mt-7 my-4 flex items-center space-x-3 flex-col md:flex-col lg:flex-row">
             <div  class="bg-slate-200 p-4 rounded-full shadow-xl">
               <i class="fa-solid fa-gifts fa-lg" style="color: #F85559;"></i>
             </div>
@@ -547,8 +547,8 @@
   
           <!-- choose sec right -->
           <div>
-            <!-- dedicated -->
-          <div class="mt-7  my-4 flex items-center space-x-3 md:justify-end flex-col md:flex-row text-right">
+            <!-- Integrated Supplier -->
+          <div class="mt-7  my-4 flex items-center space-x-3 md:justify-end flex-col-reverse md:flex-col-reverse lg:flex-row text-right space-y-3">
             
            <div class="flex flex-col lg:items-end">
             <h3 class="text-2xl text-center lg:text-start font-extrabold">Integrated Supplier</h3>
@@ -563,9 +563,9 @@
           </div>
           </div>
   
-          <!-- fresh -->
+          <!-- Sustainable practice -->
   
-          <div class="mt-7  my-4 flex items-center space-x-3 md:justify-end flex-col md:flex-row text-right">
+          <div class="mt-7  my-4 flex items-center space-x-3 md:justify-end flex-col-reverse md:flex-col-reverse lg:flex-row text-right">
             
            <div class="flex flex-col lg:items-end">
             <h3 class="text-2xl text-center lg:text-start font-extrabold">Sustainable Practice</h3>
@@ -580,9 +580,9 @@
           </div>
           </div>
   
-          <!-- gift -->
+          <!-- The Benefits only -->
   
-          <div class="mt-7 my-4 flex items-center space-x-3 justify-center md:justify-end flex-col md:flex-row lg:text-right">
+          <div class="mt-7 my-4 flex items-center space-x-3 justify-center md:justify-end flex-col-reverse md:flex-col-reverse lg:flex-row lg:text-right">
             
            <div class="flex flex-col lg:items-end">
             <h3 class="text-2xl text-center lg:text-start font-extrabold">The Benefits Only</h3>
@@ -604,10 +604,10 @@
   <!-- footer start -->
   <footer class="footer footer-center mt-20 p-6 bg-black text-base-content rounded">
     <div>
-      <a class="btn btn-ghost normal-case font-bold text-3xl flex-1 justify-start text-white lg:justify-center"><img
+      <a class="btn btn-ghost normal-case font-bold text-4xl flex-1 justify-start text-white lg:justify-center"><img
         src="images/logo.png" alt="" class="w-7 h-7">Fruit Burst</a>
     </div>
-    <div class="grid grid-cols-3 lg:grid-cols-6 gap-3 p-6 font-medium text-white">
+    <div class="flex gap-10 px-7 justify-center flex-wrap font-medium text-xl text-white">
       <a class="link link-hover">Home</a>
       <a class="link link-hover">About us</a>
       <a class="link link-hover">Shop</a> 
@@ -615,7 +615,7 @@
       <a class="link link-hover">Support</a>
       <a class="link link-hover">My Account</a>
     </div> 
-    <div class="flex gap-6">
+    <div class="flex gap-8">
       <i class="fa-brands fa-twitter fa-2xl" style="color: #f7f7f7;"></i>
       <i class="fa-brands fa-facebook fa-2xl" style="color: #f7f7f7;"></i>
       <i class="fa-brands fa-youtube fa-2xl" style="color: #f7f7f7;"></i>
